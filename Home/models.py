@@ -1,5 +1,6 @@
 from django.db import models
 
+# third comment
 
 class Teacher(models.Model):
     name = models.CharField(verbose_name='Name of teacher',max_length=255, unique=True)
